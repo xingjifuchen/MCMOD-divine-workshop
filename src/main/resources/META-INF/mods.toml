@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="divineworkshop"
+version="2.0.0"
+displayName="神咒工坊 (Divine Workshop)"
+logoFile = "icon.png"
+description='''
+添加了近30种实用且强力的附魔及其获取方式，在配置文件中拥有极高自由度的自定义！目前有着终焉级、神话级、史诗级、稀有级、普通级附魔五类,每类附魔都有独特的纹理。
+'''
+authors="星寂浮沉"
+mixin.config="divineworkshop.mixins.json"
+
+[[dependencies.divineworkshop]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.divineworkshop]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.divineworkshop]]
+    modId="jei"
+    mandatory=false
+    versionRange="[15,)"
+    ordering="AFTER"
+    side="CLIENT"

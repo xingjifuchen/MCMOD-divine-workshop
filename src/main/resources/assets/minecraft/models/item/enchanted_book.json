@@ -1,0 +1,38 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/enchanted_book"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "divineworkshop:book_type": 0.1
+            },
+            "model": "divineworkshop:item/normal_book"
+        },
+        {
+            "predicate": {
+                "divineworkshop:book_type": 0.2
+            },
+            "model": "divineworkshop:item/rare_book"
+        },
+        {
+            "predicate": {
+                "divineworkshop:book_type": 0.3
+            },
+            "model": "divineworkshop:item/epic_book"
+        },
+        {
+            "predicate": {
+                "divineworkshop:book_type": 0.4
+            },
+            "model": "divineworkshop:item/mythic_book"
+        },
+        {
+            "predicate": {
+                "divineworkshop:book_type": 0.5
+            },
+            "model": "divineworkshop:item/final_book"
+        }
+    ]
+}
